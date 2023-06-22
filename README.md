@@ -9,20 +9,34 @@ Refactoring is a key part of the coding process. When refactoring code, you aren
 
 _______________________________________________
 
-Overview of Project: 
+## Overview of Project: 
 Steve oversees his parent's investing strategy. We (the company) were approached by Steve to make a program to automate his analysis. As Steve uses excel daily, a program(macro) in VBA made the most sense to our team. VBA is powerful enough to do simple calculations without needing additional software that may come with additional cost. As Steve may or may not be super excel savvy we created a macro that could be activated with the click of the button.
 
-Results:
+### Results:
 
 We made two separate versions of the macro to compare their performance against each other.
 
 The first version of the macro (not refactored) took on average for both years about 0.50 seconds. The 2nd version (refactored) took on average about 0.10 seconds. Please see actual screenshots in repo for exact numbers. These are approximating and should only be used for reference.
 
-before_refactor_2017.png and before_refactor_2018.png (see attached repo)
-VBA_Challenge2017.png and VBA_Challenge_2018.png (see attached repo) for the refactored code
+![2017 Not Refactored Script execution Time](/images/before_refactor_2017.png)
+
+Figure 1: Script execution Time for Code not Refactored for 2017
+
+![2018 Not Refactored Script execution Time](/images/before_refactor_2018.png)
+
+Figure 2: Script execution Time for Code not Refactored for 2017
+
+![Code Refactored 2017 Script execution Time](/images/VBA_Challenge2017.png)
+
+Figure 3: Script execution Time for Code Refactored for 2017
+
+![Code Refactored 2018 Script execution Time](/images/VBA_Challenge2018.png)
+
+Figure 4: Script execution Time for Code Refactored for 2018
+
 The main difference between the two macros is that one uses a "nested for loop" versus multiple "for loops" on the refactored code. There are pros and cons to each of course. Both macros rely on the use of "if" statements to loop through rows or columns. For loops are great for repetitive tasks such as the ones in this challenge assignment.
 
-Summary:
+### Summary:
 
 In a summary statement, address the following questions. What are the advantages or disadvantages of refactoring code? How do these pros and cons apply to refactoring the original VBA script?
 
