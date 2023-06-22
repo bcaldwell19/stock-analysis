@@ -18,7 +18,7 @@ We made two separate versions of the macro to compare their performance against 
 
 The first version of the macro (not refactored) took on average for both years about 0.50 seconds. The 2nd version (refactored) took on average about 0.10 seconds. Please see actual screenshots in repo for exact numbers. These are approximating and should only be used for reference.
 
-![2017 Not Refactored Script execution Time](/images/before_refactor_2017.png)
+![2017 Not Refactored Script execution Time](/images/before_refactor_2017.PNG)
 
 Figure 1: Script execution Time for Code not Refactored for 2017
 
@@ -26,11 +26,11 @@ Figure 1: Script execution Time for Code not Refactored for 2017
 
 Figure 2: Script execution Time for Code not Refactored for 2017
 
-![Code Refactored 2017 Script execution Time](/images/VBA_Challenge2017.png)
+![Code Refactored 2017 Script execution Time](/images/VBA_Challenge_2017.PNG)
 
 Figure 3: Script execution Time for Code Refactored for 2017
 
-![Code Refactored 2018 Script execution Time](/images/VBA_Challenge2018.png)
+![Code Refactored 2018 Script execution Time](/images/VBA_Challenge_2018.PNG)
 
 Figure 4: Script execution Time for Code Refactored for 2018
 
